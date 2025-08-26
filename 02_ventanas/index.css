@@ -1,0 +1,10 @@
+body{
+    background-color: lightsalmon;
+    /* cambiamos la letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}

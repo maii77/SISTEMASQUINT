@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(238, 169, 179);
+}
+h1{
+    text-align: center;
+}
+
+.hijo{
+    width: 80px;
+    height: 80px;
+    border: 2px solid salmon;
+    background-color: rgb(160, 238, 82);
+    color: aqua;
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+}
+
+.padre{
+    display: flex;
+    /*flex-direction: column;en columna*/
+    /*flex-direction: row-reverse:invierte el orden*/
+    flex-direction: row;
+}
+
+.padreDos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    width: 80px;
+}
